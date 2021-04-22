@@ -101,7 +101,7 @@ submit.addEventListener('click', () => {
     else{
         showScore.innerHTML = `
         <h3> You scored ${score} out of ${quizDB.length}</h3>
-        <button class="btn" onClick="location.href='start.html'">Play Again</button>
+        <button class="btn" onClick="location.href='start.html'">Try Again!</button>
         `;
 
         showScore.classList.remove('scoreArea');
